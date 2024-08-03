@@ -1,0 +1,167 @@
+*{
+    border-width: 1px;
+}
+body{min-height: 100vh;
+background:linear-gradient(135deg,rgb(54, 52, 52),gray);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0;
+
+}
+
+.card{
+    height: 60vh;
+    width: 120vh;;
+background-color: rgb(244, 240, 243);
+border-radius: 15px;
+display: flex;
+margin: 0px;
+
+
+}
+.input{
+    width: 60%;
+    height: 100%;
+    background-color: #dedee3;
+   border-radius: 15px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.heading{font-family:  'Arial Narrow', Arial, sans-serif;
+
+
+}
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+}
+.row1,.row2{
+flex: 1;
+width: 100%;
+display: flex;
+justify-content: space-around;
+
+}
+.row1{
+    margin-top: 10%;
+}
+.gender{
+    max-width: 40%;
+    flex: 1;
+    
+}
+.waist-box{
+    max-width: 50%;
+    flex: 1;
+    
+}
+
+
+.height-box{
+    flex: 1;
+    max-width: 40%;
+}
+.neck-box{
+    flex: 1;    
+    max-width: 50%;
+}
+
+
+input{
+    background-color: rgb(225, 225, 225);
+    border-style: solid;
+    border-radius: 8px;
+    height: 20px;
+
+}
+
+select{
+    background-color: rgb(225, 225, 225);
+    border-style: solid;
+    border-radius: 8px;
+    height: 30px;
+
+}
+.result{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    justify-content: center;
+    
+}
+
+.answer{
+    border: none;
+    width:60%;
+    text-align: center;
+    border-width: 1px;
+    height: 30%;
+    border-radius: 6px;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vh;
+}
+.submit{
+    margin-top: 10vh;
+    height: 6vh;
+    width: 40%;
+    color: white;
+    background-color: rgb(165, 176, 239);
+    font-family: sans-serif;
+    font-size: large;
+    border-radius:12px;
+    border-width: 0px;
+    font-weight: bold;
+}
+.submit:hover{
+    cursor: pointer;
+}
+.right-text{
+    font-size: larger;
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+.waist-unit,.height-unit,.neck-unit{
+    width: 20%;
+    height: 25px;
+}
+.gender{
+    height: 25px;
+}
+.waist{
+    width: 60%;
+}
+.height{
+    width: 70%;
+}
+.neck{
+    width: 60%;
+}
+input{
+    background-color: whitesmoke;
+}
+select{
+    background-color: whitesmoke;
+}

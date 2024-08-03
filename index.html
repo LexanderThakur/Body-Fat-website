@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="options">
+
+    </div>
+    <div class="card">
+        
+       <div class="input">
+        <h1 style="font-family: sans-serif;">Body Fat Calculator</h1>
+        <div class="text">
+            <div class="row1">
+                <select name="" id="" class="gender js-gender"  >
+                    <option value="Male" class="male">Male</option>
+                    <option value="Female" class="female">Female</option>
+    
+    
+                </select>
+                <div class="waist-box">
+                    <input type="text" class="waist js-waist"  placeholder="Waist*">
+                <select class="waist-unit" >
+                    <option >cm</option>
+                    <option >in</option>
+                </select>
+                </div>
+                
+            </div>
+            
+
+
+            <div class="row2">
+                <div class="height-box">
+                    <input type="" class="height js-height"  placeholder="Height*" style="width: 60%;">
+                    
+                    
+                        <select class="height-unit" style="width: 45px;" id="one">
+                            <option class="op">cm</option>
+                            <option class="op">ft/inches</option>
+                        </select>
+                    
+                </div>
+               
+                
+                <div class="neck-box">
+                    <input type="text" class="neck js-neck"  placeholder="Neck Circumference*">
+                <select class="neck-unit" >
+                    <option >cm</option>
+                    <option >in</option>
+                </select>
+                </div>
+                
+            </div>
+            <button class="submit js-submit" style="margin-bottom: 3vh;margin-top: -3vh;">Submit</button>
+        </div>
+        
+            
+        
+       </div>
+       <div class="result">
+        <div class="right-text">Your Body Fat  is</div>
+        <div class="answer">0.00%</div>
+
+    </div>
+    <script defer src="js1.js"></script>
+</body>
+</html>
